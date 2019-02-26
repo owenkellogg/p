@@ -1,4 +1,8 @@
 module.exports = {
+  globals: {
+    "ripple": "writable",
+    "cordova": "writable"
+  },
   root: true,
   parserOptions: {
     ecmaVersion: 2017,

@@ -7,6 +7,13 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('receive', { path: "/"});
+  this.route('send');
+  this.route('settings');
+  this.route('history');
+  this.route('export');
+  this.route('export-wallet');
+  this.route('set-rippled-server');
 });
 
 export default Router;

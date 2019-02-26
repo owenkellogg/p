@@ -1,0 +1,13 @@
+{{outlet}}
+
+<h2>Receive</h2>
+
+<div id='account-qr'>
+  {{qr-code text=account.address colorLight="#F7F7F7" width=155 height=155 correctLevel="L"}}
+
+</div>
+
+<p>{{account.address}}</p>
+
+<p>balance: {{account.balance}} XRP</p>
+
